@@ -1,0 +1,82 @@
+body {
+    background: #282a36;
+    color: #f8f8f2;
+    font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  .terminal {
+    background: #232634;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px #0008;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .terminal-header {
+    background: #181a20;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+  }
+  .terminal-nav {
+    background: #181a20;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    padding: 8px 16px;
+  }
+  .terminal-nav-button {
+    cursor: pointer;
+  }
+
+  .terminal-button {
+    cursor: pointer;
+    margin-left: 4px;
+    color: #a6e22e;
+    font-size: 1.2em;
+  }
+  
+  .terminal-title {
+    /* margin-left: 16px; */
+    color: #a6e22e;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .terminal-body {
+    /* padding: 10px; */
+    font-size: 1em;
+    white-space: pre;
+  }
+  .neofetch {
+    padding: 0px 0px 10px 0px;
+    font-size: 1em;
+    white-space: pre;
+    float: left;
+  }
+  .info {
+    font-size: 1em;
+    top: 0px;
+    /* white-space: pre; */
+    float: left;
+  }
+  .result {
+    display: flex;
+    padding: 0px 0px 10px 0px;
+    font-size: 1em;
+    white-space: pre;
+    float: left;
+  }
+  .command {
+    color: #a6e22e;
+    font-weight: bold;
+  }
+  
+  .green {
+    color: #a6e22e;
+  }
