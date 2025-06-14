@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'VNMMono';
+  src: url('./assets/fonts/VNMMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
     background: #282a36;
     color: #f8f8f2;
-    font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+    font-family: 'VNMMono', 'Fira Mono', 'Consolas', 'Monaco', monospace;
     margin: 0;
     padding: 40px;
   }
